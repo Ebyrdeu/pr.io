@@ -2,17 +2,21 @@ body,html{
     background-color: #fff;
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
-    margin: 25px
+    margin: 20px;
 }
 .circle{
     list-style: circle;
 }
-.text_6{
-    
-}
+
 .number_1{
     font-size: 22px;
     font-weight: bold;
+    text-decoration-line: underline;
+}
+.number_2{
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration-line: line-through;
 }
 a{
     color: #333;
@@ -28,4 +32,32 @@ a:hover{
 img{
     width: 400px;
     height: 600px
+}
+.img_arg{
+    float: right;
+    width: 350px;
+    height: 350px;
+    border-radius: 350px;
+}
+.second_img{
+    float: right;
+ border-radius: 20px;
+ height: 400px;
+ width: 280px
+}
+.chapters_b{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.chapters{
+    padding-top: 250px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+ display: flex;
+ justify-content: center;
 }
