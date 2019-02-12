@@ -30,13 +30,14 @@ body,html{
     box-shadow: 5px 5px 50px 6px;p
 }
 .navbar_content{
-  margin: 5px ;
-  padding: 5px
+    margin: 5px;
+    padding: 5px;
 }
 /* Href Links */
 a{
     color: #333;
     text-decoration-line:none;
+    font-weight: bold;
 }
 a:hover{
  text-decoration-line: underline
