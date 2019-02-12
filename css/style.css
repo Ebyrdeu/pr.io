@@ -3,11 +3,13 @@ body,html{
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
     margin: 20px;
+    background-color: rgb(255, 239, 219);
 }
+/* Navbar */
 .circle{
     list-style: circle;
+    font-style: italic;
 }
-
 .number_1{
     font-size: 22px;
     font-weight: bold;
@@ -17,7 +19,21 @@ body,html{
     font-size: 22px;
     font-weight: bold;
     text-decoration-line: line-through;
+    font-style: italic;
 }
+.navbar{
+    position: fixed !important;
+    float: left !important;
+    border: 2px solid darkgoldenrod;
+    background-color: bisque;
+    border-radius: 5px ;
+    box-shadow: 5px 5px 50px 6px;p
+}
+.navbar_content{
+  margin: 5px ;
+  padding: 5px
+}
+/* Href Links */
 a{
     color: #333;
     text-decoration-line:none;
@@ -25,6 +41,10 @@ a{
 a:hover{
  text-decoration-line: underline
 }
+.href_footer{
+ font-weight: bold;
+}
+/* IMG */
 .img_box{
     display: flex;
     justify-content: center;
@@ -39,6 +59,7 @@ img{
     height: 350px;
     border-radius: 350px;
 }
+/* Chapters */
 .second_img{
     float: right;
  border-radius: 20px;
@@ -57,10 +78,32 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-.center{
- display: flex;
- justify-content: center;
-}
 .chapters_c{
     padding-top: 100px;
+}
+.center{
+    display: flex;
+    justify-content: center
+}
+/* Text */
+.text_sim{
+    font-weight: bold;
+    text-decoration: line-through;
+}
+h2{
+    text-align: center;
+}
+.color_random_1{
+    color: rgba(255, 0, 0, 0.486)
+}
+
+.color_random_2{
+    color: rgb(118, 88, 173)
+}
+
+.color_random_3{
+    color: rgb(0, 199, 0)
+}
+.color_random_4{
+    color: rgb(255, 123, 0)
 }
