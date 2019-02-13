@@ -1,0 +1,79 @@
+html,body{
+ font-family: Arial;
+background-color:  #333
+}
+/* Card Boxes */
+.main_card_box{
+display: flex;
+justify-content: center;
+margin-top: 150px;
+}
+.card_box{
+ width: 1010px;
+height: 503px;
+border: 1px solid #d7d7d7;
+background-color: #ffffff;
+}
+/* IMG */
+.center{
+ margin-top: 64px;
+ margin-right: 48px;
+ width: 376px;
+height: 375px;
+}
+/* Button */
+a{
+ width: 252px;
+height: 50px;
+background-color: #ec744a;
+padding: 16px 39px;
+height: 18px;
+color: #ffffff;
+font-family: "Arial MT";
+font-size: 19px;
+font-weight: 400;
+text-decoration: none;
+}
+.button_box{
+margin-top: 70px;
+}
+/* Text */
+.text_box{
+width: 395px;
+height: 94px;
+margin-left: 524px;
+margin-top: -387px;
+margin-right: 93px
+}
+h2{
+ height: 22px;
+ color: #2f2f2f;
+ font-family: "Arial - Bold MT";
+ font-size: 23px;
+ font-weight: 400;
+}
+p{
+ height: 50px;
+ color: #2f2f2f;
+ font-family: "Arial MT";
+ font-size: 15px;
+ font-weight: 400;
+}
+/* Prices */
+.prices_box{
+margin-top: 81px;
+}
+.price_name{
+color: #2f2f2f;
+font-family: "Arial MT";
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 23px
+}
+.price{
+color: #2f2f2f;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+margin-top: -40px;
+}
