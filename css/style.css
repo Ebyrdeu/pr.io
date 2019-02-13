@@ -40,7 +40,7 @@ a{
     font-weight: bold;
 }
 a:hover{
- text-decoration-line: underline
+ text-decoration-line: underline;
 }
 .href_footer{
  font-weight: bold;
@@ -65,7 +65,7 @@ img{
     float: right;
  border-radius: 20px;
  height: 400px;
- width: 280px
+ width: 280px;
 }
 .chapters_b{
     width: 1000px;
