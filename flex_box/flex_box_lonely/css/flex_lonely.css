@@ -1,43 +1,48 @@
 html,body{
- font-family: 'Signika', sans-serif;
- margin: 0px;
- background-color: #333
+font-family: 'Signika', sans-serif;
+margin: 0px;
+background-color: #333
 }
 /*  Background 1 */
 .bg_1{
- height: 803px;
- background-color: #fff;
+height: 803px;
+background-color: #fff;
 }
 .modul_1{
- display: flex;
- justify-content: space-evenly;
+display: flex;
+justify-content: space-evenly;
 }
 /* Img Background 1 */
+.img_box{
+    display: flex;
+    align-items: center;
+    height: 73vh;
+}
 .book_img{
- width: 404px;
+width: 404px;
 height: 630px;
 }
 /* Text Background 1 */
 .info_h2{
- height: 45px;
- color: #000000;
- font-family: Tahoma;
- font-size: 48px;
- font-weight: 700;
+height: 45px;
+color: #000000;
+font-family: Tahoma;
+font-size: 48px;
+font-weight: 700;
 }
 .info_p_1{
- height: 28px;
- color: #000000;
- font-size: 30px;
- font-weight: 400;
+height: 28px;
+color: #000000;
+font-size: 30px;
+font-weight: 400;
 }
 .info_p_2{
- width: 526px;
- height: 99px; 
- color: #000000;
- font-size: 18px;
- font-weight: 400;
- line-height: 27px;
+width: 526px;
+height: 99px; 
+color: #000000;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
 }
 .price{
 height: 46px;
@@ -48,13 +53,8 @@ font-weight: 400;
 line-height: 27px;
 }
 /* Buttons */
-.btn_box{
-display: flex;
-justify-content: space-evenly
-}
-.btn{
- /* button */
- width: 287px;
+.btn_1{
+width: 175px;
 height: 67px;
 border-radius: 5px;
 border: 2px solid #f05a22;
@@ -65,9 +65,26 @@ font-size: 24px;
 font-weight: 700;
 line-height: 27px;
 }
-.btn:hover{
- background-color: #f05a22;
- color: #ffffff;
+.btn_1:hover{
+    background-color: #f05a22;
+    color: #ffffff;
+}
+.btn_2{
+ /* button */
+width: 287px;
+height: 67px;
+border-radius: 5px;
+border: 2px solid #f05a22;
+background-color: inherit;
+/* Text */
+color: #f05a22;
+font-size: 24px;
+font-weight: 700;
+line-height: 27px;
+}
+.btn_2:hover{
+background-color: #f05a22;
+color: #ffffff;
 }
 /* Backgrpund 2 */
 .bg_2{
@@ -75,8 +92,46 @@ height: 408px;
 border: 1px solid #ffffff;
 background-color: #f2f2f2;
 }
+/*  Modul 2 */
+.modul_2_box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 20vh
+}
+.modul_2{
+width: 181px;
+}
+/* Background 2 IMG */
+.img_modul_2_box{
+    display: flex;
+    justify-content: center;
+}
+/* Text Backkground 2 */
+.modul_2_text{
+text-align: center;
+color: #333333;
+font-family: "Open Sans";
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+}
+.text_modul_2{
+height: 27px;
+color: #333333;
+font-family: Tahoma;
+font-size: 30px;
+font-weight: 700;
+line-height: 27px;
+}
+.text_box_modul_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh
+}
 /* Background 3 */
 .bg_3{
- height: 859px;
- background-color: #fff;
+height: 859px;
+background-color: #fff;
 }
