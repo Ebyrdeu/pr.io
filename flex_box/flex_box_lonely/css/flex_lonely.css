@@ -135,3 +135,13 @@ line-height: 27px;
 height: 859px;
 background-color: #fff;
 }
+/* Modul 3 */
+.modul_3_box{
+display: flex;
+justify-content: center;
+}
+/* Modul 3 IMG */
+.img_modul_3_box{
+    margin-top: 40px;
+    margin-right: 31px
+}
