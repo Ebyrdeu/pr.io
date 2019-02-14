@@ -1,0 +1,43 @@
+html,body{
+ font-family: 'Signika', sans-serif;
+ margin: 0px;
+ background-color: #333
+}
+/*  Background 1 */
+.bg_1{
+ height: 803px;
+ background-color: #fff;
+}
+/* Img Background 1 */
+.book_img{
+ width: 404px;
+height: 630px;
+}
+/* Text Background 1 */
+.info_h2{
+color: #000000;
+font-size: 48px;
+font-weight: 700;
+}
+.info_p_1{
+color: #000000;
+font-size: 30px;
+font-weight: 400;
+}
+.info_p_2{
+ color: #000000;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 27px;
+}
+/* Backgrpund 2 */
+.bg_2{
+height: 408px;
+border: 1px solid #ffffff;
+background-color: #f2f2f2;
+}
+/* Background 3 */
+.bg_3{
+ height: 859px;
+ background-color: #fff;
+}
