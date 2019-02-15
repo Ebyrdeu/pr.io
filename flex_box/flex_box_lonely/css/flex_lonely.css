@@ -58,17 +58,15 @@ width: 175px;
 height: 67px;
 border-radius: 5px;
 border: 2px solid #f05a22;
-background-color: inherit;
+background-color: #f05a22;
+margin-right: 40px;
 /* Text */
-color: #f05a22;
+color: #fff;
 font-size: 24px;
 font-weight: 700;
 line-height: 27px;
 }
-.btn_1:hover{
-    background-color: #f05a22;
-    color: #ffffff;
-}
+
 .btn_2{
  /* button */
 width: 287px;
@@ -81,10 +79,6 @@ color: #f05a22;
 font-size: 24px;
 font-weight: 700;
 line-height: 27px;
-}
-.btn_2:hover{
-background-color: #f05a22;
-color: #ffffff;
 }
 /* Backgrpund 2 */
 .bg_2{
@@ -102,10 +96,13 @@ background-color: #f2f2f2;
 .modul_2{
 width: 181px;
 }
+.modul_2_3{
+width: 210px;
+}
 /* Background 2 IMG */
 .img_modul_2_box{
-    display: flex;
-    justify-content: center;
+display: flex;
+justify-content: center;
 }
 /* Text Backkground 2 */
 .modul_2_text{

@@ -24,10 +24,9 @@ font-weight: 400;
 }
 /* Modul */
 .modul_main_box{
- height: 50vh; 
- display: flex; 
- align-items: center; 
- justify-content: space-evenly;
+ display: flex;
+
+width: 1400px;
 }
 .modul_box{
  width: 263px;
@@ -59,4 +58,13 @@ color: #23bac1;
 font-size: 13px;
 font-weight: 700;
 text-transform: uppercase;
+}
+.container{
+background-color: crimson;
+height: 2000px;
+}
+.cointainer{
+    width: 1920px;
+    display: flex;
+    justify-content: center
 }
