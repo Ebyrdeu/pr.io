@@ -42,6 +42,7 @@ body {
 
 /* Social  Links */
 #social_links_vk {
+  margin-right: 5px;
   width: 27px;
   height: 21px;
   color: #95989a;
@@ -51,6 +52,7 @@ body {
 }
 
 #social_links_yt {
+  margin-right: 5px;
   width: 27px;
   height: 21px;
   color: #95989a;
@@ -272,6 +274,9 @@ body {
   justify-content: space-evenly;
   margin-top: 78px;
 }
+.text_box_2{
+  width: 258px;
+  }
 
 /* Text */
 .footer_text_p {
