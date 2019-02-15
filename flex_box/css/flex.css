@@ -5,7 +5,6 @@ body,html{
 /* Background 1 */
 .bg_1{
  height: 723px;
- width: 1920px;
  background-color: #f9f9f9;
 }
 /* Text */
@@ -23,13 +22,11 @@ font-size: 36px;
 font-weight: 400;
 
 }
-/* Modul */
 .container{
-margin-left: 400px;
-margin-right: 400px;
-
-    
+   margin-left: 100px;
+   margin-right: 100px
 }
+/* Modul */
 .modul_main_box{
 display: flex;
 justify-content: center;
