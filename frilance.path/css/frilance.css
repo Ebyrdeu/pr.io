@@ -1,0 +1,51 @@
+/*  Main */
+html,body{
+ margin: 0px;
+}
+/* Header */
+ .header{
+height: 854px;
+background-color: #f4f5f7;
+ }
+
+ /* Navbar */
+.navbar{
+ height: 76px;
+ display: flex;
+ justify-content: space-around;
+ align-items: flex-end;
+}
+ /* Auth */
+ #auth_name{
+ width: 182px;
+height: 25px;
+color: #95989a;
+font-family: 'Arimo', sans-serif;
+font-size: 20px;
+font-weight: 700;
+ }
+ /* Social  Links */
+ #social_links_vk{
+  width: 27px;
+height: 21px;
+color: #95989a;
+font-family: "Font Awesome 5 Brands";
+font-size: 24px;
+font-weight: 400;
+ }
+ #social_links_yt{
+  width: 27px;
+height: 21px;
+color: #95989a;
+font-family: "Font Awesome 5 Brands";
+font-size: 24px;
+font-weight: 400;
+ }
+ #social_links_inst{
+  width: 21px;
+height: 23px;
+color: #95989a;
+font-family: "Font Awesome 5 Brands";
+font-size: 24px;
+font-weight: 400;
+ }
