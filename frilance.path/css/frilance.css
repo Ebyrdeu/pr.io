@@ -49,3 +49,34 @@ font-family: "Font Awesome 5 Brands";
 font-size: 24px;
 font-weight: 400;
  }
+ /* Header Contnet */
+
+ /* Text */
+ #header_text_1{
+  height: 24px;
+  color: #32325f;
+  font-family: 'Arimo', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+#header_text_2{
+height: 58px;
+color: #32325f;
+font-family: 'Arimo', sans-serif;
+font-size: 48px;
+font-weight: 700;
+
+}
+#header_text_3{
+height: 56px;
+color: #32325f;
+font-family: 'Arimo', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+
+}
+#prices_text{
+  
+}
+ /* Buttons */
