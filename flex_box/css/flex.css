@@ -1,64 +1,76 @@
-body,html{
- font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- margin: 0px;
+.background_1{
+    background-color: #f9f9f9;
+    height: 703px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* Background 1 */
-.bg_1{
- height: 723px;
- background-color: #f9f9f9;
+.header{
+    display: flex;
+    justify-content: center;
 }
-/* Text */
-.text_box{
- display: flex;
- justify-content: center;
+.container{
+background-color: #f9f9f9;
+width: 1400px;
+height: 500px;
 }
-.info{
- margin-top: 100px;
- width: 552px;
+h1{
+width: 552px;
 height: 31px;
 color: #000000;
 font-family: "Proxima Nova";
 font-size: 36px;
 font-weight: 400;
-
 }
-.container{
-   margin-left: 100px;
-   margin-right: 100px
+.inside_box{
+   display: flex; 
+   justify-content: center;
 }
-/* Modul */
-.modul_main_box{
-display: flex;
-justify-content: center;
+.text_box{
+margin-right: auto;
+margin-left: auto;
+width: 50%;
 }
-.modul_box{
- width: 263px;
-height: 210px;
-background-color: #ffffff;
-}
-.text_modul_box{
-text-align: center;
-}
-.text_modul_1{
- color: #000000;
- font-size: 16px;
- font-weight: 300;
-}
-.text_modul_2{
+.price{
+height: 15px;
 color: #000000;
+font-family: "Proxima Nova";
 font-size: 18px;
 font-weight: 700;
 }
-/* Button */
+p{
+height: 11px;
+color: #000000;
+font-family: "Proxima Nova";
+font-size: 16px;
+font-weight: 300;
+}
+.img_box{
+    margin: 20px;
+    width: 263px;
+height: 210px;
+background-color: #ffffff;
+}
+.btn_box{
+    display: flex;
+    justify-content: center;
+}
 .btn{
- /* Button */
- width: 200px;
+    /* btn  */
+width: 200px;
 height: 55px;
 border: 1px solid #23bac1;
-background-color:  inherit;
-/* Text */
+background-color: inherit;
+/* text */
 color: #23bac1;
+font-family: "Proxima Nova";
 font-size: 13px;
 font-weight: 700;
 text-transform: uppercase;
+}
+.text_box_1{
+    display: flex;justify-content: center;
+}
+.text_box_2{
+    display: flex;justify-content: center;
 }
