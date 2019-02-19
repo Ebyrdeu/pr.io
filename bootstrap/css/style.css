@@ -1,8 +1,16 @@
-.row img{
- margin-left: 20px;
+html,body{
+    margin: 0px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    text-align: center;
 }
 p{
-width: 122px;
 color: #333333;
 font-family: Tahoma;
 font-size: 16px;
