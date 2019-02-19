@@ -23,7 +23,7 @@ body,html{
 }
 .navbar{
     position: fixed !important;
-    float: left !important;
+    float: right !important;
     border: 2px solid darkgoldenrod;
     background-color: bisque;
     border-radius: 5px ;
