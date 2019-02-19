@@ -1,0 +1,26 @@
+.row img{
+ margin-left: 20px;
+}
+p{
+width: 122px;
+color: #333333;
+font-family: Tahoma;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+}
+.p_box{
+   margin-top: 25px;
+}
+.p_box_1{
+    margin-top: -8px;
+}
+h1{
+height: 28px;
+color: #333333;
+font-family: Tahoma;
+font-size: 24px;
+font-weight: 700;
+text-transform: uppercase;
+text-align: center;
+}
