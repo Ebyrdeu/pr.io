@@ -1,0 +1,49 @@
+$black: #333333;
+$yellow: #ffd200;
+.container
+    width: 1170px
+    margin-left: auto
+    margin-right: auto
+.navbar
+    height: 90px
+    display: flex
+    justify-content: space-between
+    &-info 
+        display: flex
+    &-text
+        &-p 
+            height: 13px
+            font-size: 13px
+            font-weight: 300
+            color: $black
+        &-link 
+         height: 18px
+         font-size: 20px
+         font-weight: 700
+         color: $black
+
+.btn
+    margin-left: 30px
+    align-self: center
+    height: 70px 
+    &-text 
+        // Btn
+        width: 170px
+        height: 49px
+        background-color: $yellow
+        border-radius: 10px
+        border: none
+        outline: none
+        // text
+        font-size: 13px
+        font-weight: 700
+        color: $black
+@media (max-width: 1200px)
+    .container
+        width: 760px
+@media (max-width: 768px)
+    .container
+        width: 600px
+    .navbar-text
+        display: none
+
