@@ -1,5 +1,27 @@
 $black: #333333;
 $yellow: #ffd200;
+$font-reg: 'Museo Sans Light' , sans-serif;
+$font-bold: 'Museo Sans Bold' , sans-serif;
+body
+    font-family: $font-bold
+@font-face 
+    font-family: 'Museo Sans Light'
+    src: url('../fonts/MuseoSansCyrl-300.eot')
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-300.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+
+@font-face 
+    font-family: 'Museo Sans  Bold'
+    src: url('../fonts/MuseoSansCyrl-700.eot')
+    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-700.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+
 .container
     width: 1170px
     margin-left: auto
@@ -58,14 +80,14 @@ $yellow: #ffd200;
         &__title
             color: #333333
             color: #333333
-            font-family: "Museo Sans Cyrl -700"
+            font-family: $font-bold
             font-size: 41px
             font-weight: 400
             line-height: 55px
         &__subtitle
             display: inline-block
             color: #333333
-            font-family: "Museo Sans Cyrl -700"
+            font-family: $font-bold
             font-size: 20px
             font-weight: 500
             margin-bottom: 69px
