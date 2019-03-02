@@ -1,0 +1,78 @@
+.header
+    &-image
+    padding: 50px 0
+    &-block
+        display: flex
+    &-text
+        flex-basis: 45%
+        padding-right: 85px
+        & > h2 
+            color: $text-color
+            font-family: $fonts-bold
+            font-size: 41px
+            line-height: 55px
+            margin-bottom: 40px
+        & > span 
+            color: $text-color
+            font-family: $fonts-bold
+            font-size: 20px
+            display: inline-block
+            margin-bottom: 50px
+    &-list
+        margin: 0
+        padding: 0
+        &__item
+            display: flex
+            align-items: center
+            margin-bottom: 25px
+            &:last-child
+                margin-bottom: 0
+        &__image   
+            width: 40px
+            height: 40px
+            border: 2px solid $main-color
+            display: flex
+            justify-content: center
+            align-items: center
+            border-radius: 50%
+            margin-right: 30px
+        &__text
+            max-width: 300px 
+            color: $text-color
+            font-family: $fonts-light
+            font-size: 14px
+            font-weight: 400
+            line-height: 24px
+@media(max-width: 1200px)
+    .container
+        width: 768px 
+    .header
+        &-block
+             flex-direction: column 
+        &-list
+            margin-bottom: 40px
+        &-text 
+            padding-right: 0px
+@media(max-width: 768px)
+    .container
+       max-width: 540px 
+       width: 95%
+    .navbar
+        &__contacts
+            display: none
+        &-text
+            &__title
+                font-size: 24px 
+                line-height: 1.4
+                margin-bottom: 15px
+            &__subtitle
+                font-size: 16px
+                margin-bottom: 28px
+            &-list
+                &__item
+                   margin-bottom:  20px
+                &__text
+                    font-size: 12px
+                &__image
+                    margin-right: 15px
+
