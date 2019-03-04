@@ -1,0 +1,73 @@
+.offer
+    background: url('../img/bg-2.png') no-repeat
+    background-size: contain
+    background-position: center right
+    z-index: 1
+    position: relative
+    &-form_text
+        > div
+            > p
+                 font-family: 'Museo Sans Bold'
+                 max-width: 230px
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+    &:before
+        content: ' '
+        width: 50%
+        height: 100%
+        position: absolute
+        top: 0
+        left: 0
+        background-color: white
+        z-index: -1
+    &-block 
+        width: 50%
+        padding-right: 88px
+    &__title
+        max-width: 360px
+        line-height: 35px
+        margin-bottom: 24px
+    &__subtitle
+        max-width: 250px
+        margin-bottom: 30px
+    &__input 
+        width: 250px
+        &:first-child
+            margin-right: 10px
+    &__button
+        margin-top: 30px
+        width: 100%
+        background-color: #ffd200
+        border-radius: 10px
+        border: none
+        padding: 18px 30px
+        font-size: 13px
+        font-family: "Museo Sans Bold"     
+@media (max-width: 1200px)
+    .offer
+        background-size: cover
+        &__input
+            width: 100%
+            margin-bottom: 10px 
+        &__button
+            font-size: 13px
+    .input
+        &:first-child
+            margin-bottom: 10px
+@media (max-width: 768px)
+    .offer
+        &-form_text
+            > div 
+                max-width: 190px
+                > p 
+                    font-size: 14px
+        background: #ffffff
+        &-block 
+            width: 100%
+            padding-right: 0
+        &__button
+            font-size: 12px
+
+
+    
