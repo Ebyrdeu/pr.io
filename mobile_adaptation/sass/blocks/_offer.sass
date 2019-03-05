@@ -1,73 +1,73 @@
 .offer
-    background: url('../img/bg-2.png') no-repeat
-    background-size: contain
+    background: url('../img/kunka.jpeg') no-repeat
     background-position: center right
-    z-index: 1
+    background-size: contain
     position: relative
-    &-form_text
-        > div
-            > p
-                 font-family: 'Museo Sans Bold'
-                 max-width: 230px
-        display: flex
-        flex-wrap: wrap
-        justify-content: space-between
     &:before
         content: ' '
-        width: 50%
         height: 100%
+        width: 50%
         position: absolute
         top: 0
         left: 0
-        background-color: white
-        z-index: -1
-    &-block 
+        background-color: #ffffff
+
+    &-block
         width: 50%
-        padding-right: 88px
+        padding-right: 90px
+        position: relative
     &__title
         max-width: 360px
         line-height: 35px
         margin-bottom: 24px
     &__subtitle
         max-width: 250px
+        display: inline-block
         margin-bottom: 30px
-    &__input 
-        width: 250px
+    &__input
+        margin-bottom: 30px
+        width: 240px
         &:first-child
             margin-right: 10px
     &__button
-        margin-top: 30px
         width: 100%
-        background-color: #ffd200
-        border-radius: 10px
-        border: none
-        padding: 18px 30px
-        font-size: 13px
-        font-family: "Museo Sans Bold"     
-@media (max-width: 1200px)
+        min-height: 70px
+    &__under-text
+        justify-content: space-between
+        display: flex
+        margin-top: 30px
+        &-1
+            display: block
+            max-width: 240px
+            margin-bottom: 10px
+            &-1 
+                display: inline
+        &-2
+            display: block
+            margin-bottom: 10px
+        &-3
+            color: #333333
+            font-family:  'Museo Sans Bold' , sans-serif
+            text-decoration: none
+@media (max-width:  1200px)
     .offer
         background-size: cover
         &__input
             width: 100%
-            margin-bottom: 10px 
-        &__button
-            font-size: 13px
-    .input
-        &:first-child
             margin-bottom: 10px
-@media (max-width: 768px)
+        &__button 
+            font-size: 13px
+        &__under-text
+            display: flex
+            flex-direction:  column
+            &-1
+                margin-top: 5px
+                &-1
+                    display: block
+                    margin-bottom: 10px
+@media(max-width: 768px)
     .offer
-        &-form_text
-            > div 
-                max-width: 190px
-                > p 
-                    font-size: 14px
         background: #ffffff
-        &-block 
+        &-block
             width: 100%
             padding-right: 0
-        &__button
-            font-size: 12px
-
-
-    

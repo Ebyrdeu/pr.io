@@ -1,88 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normolize.css">
 </head>
+
 <body>
 
-    <nav class="navbar">
-        <div class="container">
-            <div class="navbar-block">
-                <div class="navbar__logo"> <img src="img/logo/logo.png" alt="Logo"></div>
-                <div class="navbar__info">
-                    <div class="navbar__contacts">
-                        <span class="navbar__address">Калуга, Москва, МО</span>
-                        <a href="tell:+7 (495) 42-251-31" class="navbar__phone">+7 (495) 42-251-31</a>
+    <header>
+
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-block">
+                    <div class="navbar__logo">
+                        <img src="img/logo.png" alt="Logo"></div>
+                    <div class="navbar__info">
+                        <div class="navbar__contacts">
+                            <span class="navbar__address">Калуга, Москва, МО</span>
+                            <a class="navbar__phone" href="tel:+7 (495) 42-251-31">+7 (495) 42-251-31</a>
+                        </div>
+                        <button class="button navbar__button" id="btn">Перезвоните мне</button>
                     </div>
-                    <button class="btn navbar__button" id="btn">Перезвоните мне</button>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <main>
-        <section class="header">
+        <section class="hero">
             <div class="container">
-                <div class="header-block">
-                    <div class="header-text">
-                      <h2 class="header-text__title">Внутренняя отделка  помещений "под ключ"</h2>
-                      <span class="header-text__subtitile">с гарантией качества, прописанной в договоре</span>
-                      
-                      <ul class="header-list">
-                          <li class="header-list__item">
-                                <div class="header-list__image"><img src="img/icons/clock.png" alt="Clock"></div>
-                                <span class="header-list__text">Точно соблюдаем сроки</span>
-                          </li>
-                          <li class="header-list__item">
-                                <div class="header-list__image"><img src="img/icons/calculator.png" alt="Clock"></div>
-                                <span class="header-list__text">Рассчитаем смету на работы и материалы в день обращения</span>
-                          </li>
-                          <li class="header-list__item">
-                                <div class="header-list__image"><img src="img/icons/paint-board.png" alt="Clock"></div>
-                                <span class="header-list__text">Предложим более 100 вариантов  исполнения дизайна Вашего жилья</span>
-                          </li>
-                      </ul>
+                <div class="hero-block">
+                    <div class="hero-text">
+                        <h1 class="hero-text__title">Внутренняя отделка помещений "под ключ"</h1>
+                        <span class="hero-text__subtitle">с гарантией качества, прописанной в договоре</span>
 
+                        <ul class="hero-list">
+                            <li class="hero-list__item">
+                                <div class="hero-list__image"> <img src="img/clock-circular-outline (3)@1X.png" alt="Clock"></div>
+                                <span class="hero-list__text">Точно соблюдаем сроки</span>
+                            </li>
+                            <li class="hero-list__item">
+                                <div class="hero-list__image"><img src="img/calculator@1X.png" alt="Cal"></div>
+                                <span class="hero-list__text">Рассчитаем смету на работы и материалы в день обращения</span>
+                            </li>
+                            <li class="hero-list__item">
+                                <div class="hero-list__image"> <img src="img/paint-board-and-brush@1X.png" alt="Paint"></div>
+                                <span class="hero-list__text">Предложим более 100 вариантов исполнения дизайна Вашего жилья</span>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="header-image">
-                        <img src="img/bg_1.png" alt="Bg">
-                    </div>
+
+                    <div class="hero-img"> <img src="img/bg-1.png" alt="BG"></div>
                 </div>
             </div>
         </section>
 
         <section class="offer section">
             <div class="container">
-                <div class="offer-block">
-                    <h2 class="section-title offer__title "> Мы бесплатно разроботаем дизайн-проект Вашего жиль и реализуем его!</h2>
-                    <span class="section-subtitle offer__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта</span>
-                    <form action="" class="form offer__form">
-                        <input type="text" class="input offer-input" placeholder="Ваше имя">
-                        <input type="tel" class="input offer-input" placeholder="Ваш телефон">
-                        <button class=" offer__button">Получить бесплатный дизайн-проект</button>
-                        <div class="offer-form_text">
-                           <div> <p>Наш менеджер перезвонит Вам в течение 60 секунд</p></div>
-                           <div> <p>Или перезвоните нам сами <a href="tel:+7 (495) 42-251-31"> <strong>+7 (495) 42-251-31</strong></a>
-                           </p></div>
-                        </div>
-                    </form>
+             <div class="offer-block">
+                <h2 class="section-title offer__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
+                <span class="sectione-subtitle offer__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
+
+                <form class="form offer__form" action="#">
+
+                    <input type="text" class="input offer__input " placeholder="Ваше имя">
+                    <input type="tell" class="input offer__input" placeholder="Ваш телефон">
+                    <button class="button offer__button">Получить бесплатный дизайн-проект</button>
+                </form>
+
+                <div class="offer__under-text">
+                    <div><span class="offer__under-text-1">Наш менеджер перезвонит Вам </span> <span  class="offer__under-text-1-1" >в течение 60 секунд</span></div>
+                    <div>
+                        <span class="offer__under-text-2">или перезвоните нам сами</span>
+                        <a class="offer__under-text-3" href="tel:+7 (495) 42-251-31">+7 (495) 42-251-31</a>
+                    </div>
                 </div>
+             </div>
             </div>
         </section>
-
     </main>
-    
-    <div class="modal modal-active" id="modal">
+
+    <div class="modal" id="modal">
         <div class="modal-dialog">
             <button class="modal-dialog__close" id="close">&times;</button>
-            <h4 class="modal-dialog__title">Всплывающие окно</h4>
+            <h4 class="modal-dialog__title">Всплывающее окно</h4>
         </div>
     </div>
+
     <script src="js/main.js"></script>
 </body>
+
 </html>
