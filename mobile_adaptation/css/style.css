@@ -34,6 +34,7 @@ img {
   background-color: #ffd200;
   border: none;
   padding: 18px 30px;
+  outline: none;
 }
 
 .button:hover {
@@ -192,7 +193,7 @@ img {
 }
 
 .hero-list__text {
-  max-width: 300px;
+  max-width: 200px;
 }
 
 @media (max-width: 1200px) {
