@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normolize.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
 </head>
 
 <body>
@@ -50,7 +51,8 @@
                             </li>
                             <li class="hero-list__item">
                                 <div class="hero-list__image"> <img src="img/paint-board-and-brush@1X.png" alt="Paint"></div>
-                                <span class="hero-list__text">Предложим более 100 вариантов исполнения дизайна Вашего жилья</span>
+                                <span class="hero-list__text">Предложим более 100 вариантов исполнения дизайна Вашего
+                                    жилья</span>
                             </li>
                         </ul>
                     </div>
@@ -62,25 +64,47 @@
 
         <section class="offer section">
             <div class="container">
-             <div class="offer-block">
-                <h2 class="section-title offer__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и реализуем его!</h2>
-                <span class="sectione-subtitle offer__subtitle">Оставьте заявку на разработку бесплатного дизайн-проекта!</span>
+                <div class="offer-block">
+                    <h2 class="section-title offer__title">Мы бесплатно разработаем дизайн-проект Вашего жилья и
+                        реализуем его!</h2>
+                    <span class="sectione-subtitle offer__subtitle">Оставьте заявку на разработку бесплатного
+                        дизайн-проекта!</span>
 
-                <form class="form offer__form" action="#">
+                    <form class="form offer__form" action="#">
 
-                    <input type="text" class="input offer__input " placeholder="Ваше имя">
-                    <input type="tell" class="input offer__input" placeholder="Ваш телефон">
-                    <button class="button offer__button">Получить бесплатный дизайн-проект</button>
-                </form>
+                        <input type="text" class="input offer__input " placeholder="Ваше имя">
+                        <input type="tell" class="input offer__input" placeholder="Ваш телефон">
+                        <button class="button offer__button">Получить бесплатный дизайн-проект</button>
+                    </form>
 
-                <div class="offer__under-text">
-                    <div><span class="offer__under-text-1">Наш менеджер перезвонит Вам </span> <span  class="offer__under-text-1-1" >в течение 60 секунд</span></div>
-                    <div>
-                        <span class="offer__under-text-2">или перезвоните нам сами</span>
-                        <a class="offer__under-text-3" href="tel:+7 (495) 42-251-31">+7 (495) 42-251-31</a>
+                    <div class="offer__under-text">
+                        <div><span class="offer__under-text-1">Наш менеджер перезвонит Вам </span> <span class="offer__under-text-1-1">в
+                                течение 60 секунд</span></div>
+                        <div>
+                            <span class="offer__under-text-2">или перезвоните нам сами</span>
+                            <a class="offer__under-text-3" href="tel:+7 (495) 42-251-31">+7 (495) 42-251-31</a>
+                        </div>
                     </div>
                 </div>
-             </div>
+            </div>
+        </section>
+
+        <section class="section portfolio">
+            <div class="container">
+                <h2 class="section-title portfolio__title">Работая с 2007 года,мы сделали более 500 ремонтов в
+                    квартирах и домах</h2>
+                <div class="slider">
+                    <div class="slider__item"><img class="slider__img" src="img/slide-1.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__img" src="img/slide-2.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__img" src="img/slide-3.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__img" src="img/slide-1.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__img" src="img/slide-2.png" alt=""></div>
+                    <div class="slider__item"><img class="slider__img" src="img/slide-3.png" alt=""></div>
+                </div>
+            </div>
+            <div class="arrows portfolio__arrows">
+                    <div class="arrows__left"> <img src="img/left-arrow.png" alt=""></div>
+                    <div class="arrows__right"> <img src="img/right-arrow.png" alt=""></div>
             </div>
         </section>
     </main>
@@ -92,7 +116,36 @@
         </div>
     </div>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                prevArrow: $('.arrows__left'),
+                nextArrow: $('.arrows__right'),
+                responsive: [
+                    {
+                        breakpoint: 1200,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 2,
+                        }
+                    }
+                ]
+
+            });
+        });
+    </script>
 </body>
 
 </html>
