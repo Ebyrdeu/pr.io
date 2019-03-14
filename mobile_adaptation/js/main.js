@@ -11,7 +11,7 @@ btn.addEventListener('click', function() {
 close.addEventListener('click', function() {
     modal.classList.remove('modal_active');
 });
-/*  Slider */
+/*
 $(document).ready(function () {
     $('.slider').slick({
         slidesToShow: 3,
