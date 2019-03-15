@@ -306,7 +306,7 @@ img {
 
 .offer__input {
   margin-bottom: 30px;
-  width: 240px;
+  width: 100%;
   outline: none;
 }
 
@@ -459,6 +459,12 @@ img {
 @media (max-width: 768px) {
   .portfolio {
     background: #ffffff;
+  }
+  .portfolio__title {
+    margin-bottom: 60px;
+  }
+  .section {
+    padding-top: 0px;
   }
 }
 
@@ -809,11 +815,24 @@ img {
             flex-direction: column;
   }
   .brif__form {
-    margin-top: 80px;
+    margin-top: 18pc;
+    padding-left: 0px;
   }
   .brif__input {
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  #interview-list__counter-2 {
+    width: 34.38pt;
+  }
+  #interview-list__counter-3 {
+    width: 35.83pt;
+  }
+  #interview-list__counter-4 {
+    width: 35.85pt;
   }
 }
 
@@ -902,6 +921,9 @@ img {
     padding-left: 0;
     margin-bottom: 30px;
     padding-top: 67px;
+  }
+  .contacts__title {
+    font-size: 18px;
   }
   .contacts-block {
     -ms-flex-preferred-size: 100%;
