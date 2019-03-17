@@ -448,8 +448,6 @@ img {
 
 .slider__img {
   margin: auto;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .slider__item {
@@ -805,7 +803,7 @@ img {
   .brif {
     background-image: url("../img/bg-4.png"), url("../img/bg-2.png");
     background-position: top center, center bottom;
-    background-size: 100% 50%, cover;
+    background-size: 100% 41%, cover;
     background-repeat: repeat-x, no-repeat;
   }
   .brif-block {
@@ -815,7 +813,6 @@ img {
             flex-direction: column;
   }
   .brif__form {
-    margin-top: 18pc;
     padding-left: 0px;
   }
   .brif__input {
@@ -859,6 +856,7 @@ img {
   font-size: 22px;
   line-height: 1.4;
   margin-bottom: 100px;
+  max-width: 290px;
 }
 
 .contacts-block {
@@ -923,7 +921,7 @@ img {
     padding-top: 67px;
   }
   .contacts__title {
-    font-size: 18px;
+    font-size: 17px;
   }
   .contacts-block {
     -ms-flex-preferred-size: 100%;
@@ -932,6 +930,12 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 350px) {
+  .contacts-list__text {
+    font-size: 12.5px;
   }
 }
 /*# sourceMappingURL=style.css.map */
