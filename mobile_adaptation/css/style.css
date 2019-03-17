@@ -933,7 +933,7 @@ img {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
   .contacts-list__text {
     font-size: 12.5px;
   }
