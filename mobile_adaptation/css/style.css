@@ -82,6 +82,22 @@ img {
   margin-bottom: 10px;
 }
 
+@font-face {
+  font-family: 'Museo Sans Light';
+  src: url("../fonts/MuseoSansCyrl-300.eot");
+  src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Bold';
+  src: url("../fonts/MuseoSansCyrl-700.eot");
+  src: url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl-700.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .navbar {
   padding: 8px 0;
 }
@@ -252,24 +268,8 @@ img {
   }
 }
 
-@font-face {
-  font-family: 'Museo Sans Light';
-  src: url("../fonts/MuseoSansCyrl-300.eot");
-  src: url("../fonts/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/MuseoSansCyrl-300.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Museo Sans Bold';
-  src: url("../fonts/MuseoSansCyrl-700.eot");
-  src: url("../fonts/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/MuseoSansCyrl-700.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 .offer {
-  background: url("../img/kunka.jpeg") no-repeat;
+  background: url("../img/bg/bg-2.png") no-repeat;
   background-position: center right;
   background-size: contain;
   position: relative;
@@ -424,7 +424,7 @@ img {
 }
 
 .portfolio {
-  background: #f5f5f5 url("../img/bg-3.jpg") repeat-y center left;
+  background: #f5f5f5 url("../img/bg/bg-3.jpg") repeat-y center left;
   background-size: 50%;
 }
 
@@ -668,7 +668,7 @@ img {
 }
 
 .brif {
-  background-image: url("../img/bg-4.png"), url("../img/bg-2.png");
+  background-image: url("../img/bg/bg-4.png"), url("../img/bg/bg-2.png");
   background-position: left center, center right;
   background-size: 50%, contain;
   background-repeat: repeat-y, no-repeat;
