@@ -4644,7 +4644,7 @@ img {
     padding-top: 67px;
   }
   .contacts__title {
-    font-size: 17px;
+    font-size: 16px;
     margin-top: -50px;
   }
   .contacts-block {
@@ -4659,7 +4659,7 @@ img {
 
 @media (max-width: 380px) {
   .contacts-list__text {
-    font-size: 12.5px;
+    font-size: 10.5pt;
   }
 }
 
