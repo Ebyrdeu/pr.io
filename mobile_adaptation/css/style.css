@@ -380,7 +380,7 @@ img {
   border-radius: 10px;
   background-color: #ffd200;
   border: none;
-  padding: 30px 36px;
+  padding: 20px 32px;
   outline: none;
 }
 
@@ -4134,7 +4134,7 @@ img {
   }
   .offer__button {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16.7px;
     text-align: center;
   }
 }
