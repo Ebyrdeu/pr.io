@@ -1,7 +1,7 @@
 .brif
     background-image: url('../img/bg/bg-4.png'), url('../img/bg/bg-2.png')
     background-position: left center, center right
-    background-size: 50%, contain
+    background-size: 50%, cover
     background-repeat: repeat-y, no-repeat
     &-block
         display: flex
@@ -86,17 +86,24 @@
             margin-bottom: 30px
 @media (max-width: 768px)
     .brif
-        background-image: url('../img/bg-4.png'), url('../img/bg-2.png')
+        background-image: url('../img/bg/bg-4.png'), url('../img/bg/bg-2.png')
         background-position: top center, center bottom
-        background-size: 100% 41%, cover
+        background-size: 100% 38%, cover
         background-repeat: repeat-x, no-repeat
         &-block 
             flex-direction: column
         &__form
             padding-left: 0px
+
         &__input 
             margin-left: auto
             margin-right: auto
+        &__button
+            font-weight: bold
+    .form 
+        &__title
+            margin-top: 30px
+            display: block
 @media (max-width: 350px)
     #interview
         &-list

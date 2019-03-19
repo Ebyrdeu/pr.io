@@ -380,7 +380,7 @@ img {
   border-radius: 10px;
   background-color: #ffd200;
   border: none;
-  padding: 18px 30px;
+  padding: 30px 36px;
   outline: none;
 }
 
@@ -411,7 +411,7 @@ img {
 .input {
   border: solid 1px #dddddd;
   border-radius: 10px;
-  padding: 20px 26px;
+  padding: 30px 32px;
   font-size: 15px;
 }
 
@@ -4132,6 +4132,11 @@ img {
     width: 100%;
     padding-right: 0;
   }
+  .offer__button {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
 }
 
 .portfolio {
@@ -4381,7 +4386,7 @@ img {
 .brif {
   background-image: url("../img/bg/bg-4.png"), url("../img/bg/bg-2.png");
   background-position: left center, center right;
-  background-size: 50%, contain;
+  background-size: 50%, cover;
   background-repeat: repeat-y, no-repeat;
 }
 
@@ -4512,9 +4517,9 @@ img {
 
 @media (max-width: 768px) {
   .brif {
-    background-image: url("../img/bg-4.png"), url("../img/bg-2.png");
+    background-image: url("../img/bg/bg-4.png"), url("../img/bg/bg-2.png");
     background-position: top center, center bottom;
-    background-size: 100% 41%, cover;
+    background-size: 100% 38%, cover;
     background-repeat: repeat-x, no-repeat;
   }
   .brif-block {
@@ -4529,6 +4534,13 @@ img {
   .brif__input {
     margin-left: auto;
     margin-right: auto;
+  }
+  .brif__button {
+    font-weight: bold;
+  }
+  .form__title {
+    margin-top: 30px;
+    display: block;
   }
 }
 
@@ -4566,7 +4578,7 @@ img {
   font-family: "Museo Sans Bold", sans-serif;
   font-size: 22px;
   line-height: 1.4;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   max-width: 290px;
 }
 
@@ -4633,6 +4645,7 @@ img {
   }
   .contacts__title {
     font-size: 17px;
+    margin-top: -50px;
   }
   .contacts-block {
     -ms-flex-preferred-size: 100%;
