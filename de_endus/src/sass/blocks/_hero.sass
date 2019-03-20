@@ -1,12 +1,15 @@
 .hero
     &-block 
         display: flex
+        align-items: center
         justify-content: space-between
     &-text
+        flex-basis: 50%
         &__title
             color: $text-light
             font-size: 48px
-            max-width: 500px
+            max-width: 550px
+            line-height: 1.4
         &__subtitle
             color: $text-light
             font-size: 20px
@@ -34,13 +37,26 @@
         &__text
             color: $text-light
             font-size: 15px
-            max-width: 200px
+        
     &-box
         border: 1px solid $light
         background-color: $light
         &__title
-              font-size: 18px
-              display: block
-              padding: 40px 70px
-              max-width: 240px
+            max-width: 380px
+            margin: auto
+            text-align: center
+            font-size: 18px
+            display: block
+            padding: 35px 70px
+
+.hero__input
+    margin-bottom: 10px
+    outline: none
+    display: block
+    margin: auto
+    margin-bottom: 10px
+.button-hero
+    display: block
+    margin: auto
+    margin-bottom: 50px
               

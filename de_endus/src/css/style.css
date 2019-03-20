@@ -3,6 +3,10 @@
           box-sizing: border-box;
 }
 
+body {
+  font-family: 'ProximaNova Light' , sans-serif;
+}
+
 img {
   max-width: 100%;
 }
@@ -20,6 +24,42 @@ img {
 
 .section {
   padding: 90px;
+}
+
+.button {
+  color: #ffffff;
+  border: none;
+  background-color: #22bac1;
+  padding: 20px 60px;
+}
+
+.input {
+  border: #e8e8e8 solid 1px;
+  padding: 14px 34px;
+  text-align: center;
+}
+
+.button-hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@font-face {
+  font-family: 'ProximaNova Bold';
+  src: url("../fonts/ProximaNova-Bold.eot");
+  src: url("../fonts/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'ProximaNova Light';
+  src: url("../fonts/ProximaNova-Light.eot");
+  src: url("../fonts/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -392,6 +432,7 @@ template {
   text-decoration: none;
   border-bottom: solid 1px #bcbcbc;
   margin-right: 40px;
+  line-height: 1.4;
 }
 
 .navbar-links__text:last-child {
@@ -404,6 +445,8 @@ template {
   font-size: 17px;
   display: block;
   text-align: right;
+  font-family: 'ProximaNova Bold' , sans-serif;
+  font-weight: 700;
 }
 
 .navbar-contacts__link {
@@ -418,15 +461,24 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
+.hero-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
 .hero-text__title {
   color: #fffafa;
   font-size: 48px;
-  max-width: 500px;
+  max-width: 550px;
+  line-height: 1.4;
 }
 
 .hero-text__subtitle {
@@ -470,7 +522,6 @@ template {
 .hero-list__text {
   color: #fffafa;
   font-size: 15px;
-  max-width: 200px;
 }
 
 .hero-box {
@@ -479,9 +530,25 @@ template {
 }
 
 .hero-box__title {
+  max-width: 380px;
+  margin: auto;
+  text-align: center;
   font-size: 18px;
   display: block;
-  padding: 40px 70px;
-  max-width: 240px;
+  padding: 35px 70px;
+}
+
+.hero__input {
+  margin-bottom: 10px;
+  outline: none;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.button-hero {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */
