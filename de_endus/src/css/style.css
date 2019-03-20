@@ -18,6 +18,10 @@ img {
   background-size: cover;
 }
 
+.section {
+  padding: 90px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -408,5 +412,76 @@ template {
   text-decoration: none;
   border-bottom: 1px solid #22bac1;
   font-size: 14px;
+}
+
+.hero-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.hero-text__title {
+  color: #fffafa;
+  font-size: 48px;
+  max-width: 500px;
+}
+
+.hero-text__subtitle {
+  color: #fffafa;
+  font-size: 20px;
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 65px;
+}
+
+.hero-list {
+  padding-left: 0;
+}
+
+.hero-list-base {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.hero-list-base:last-child {
+  margin-bottom: 0;
+}
+
+.hero-list__img {
+  border: 1px solid #393a3b;
+  border-radius: 50%;
+  margin-right: 40px;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.hero-list__counter {
+  font-size: 16px;
+  color: #fffafa;
+}
+
+.hero-list__text {
+  color: #fffafa;
+  font-size: 15px;
+  max-width: 200px;
+}
+
+.hero-box {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.hero-box__title {
+  font-size: 18px;
+  display: block;
+  padding: 40px 70px;
+  max-width: 240px;
 }
 /*# sourceMappingURL=style.css.map */
