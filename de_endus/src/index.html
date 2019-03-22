@@ -19,7 +19,7 @@
                         <a href="#" class="navbar-links__text">Главная</a>
                         <a href="#" class="navbar-links__text">Виды макетов</a>
                         <a href="#" class="navbar-links__text">Комплектация макетов</a>
-                        <a href="#" class="navbar-links__text">Реализация мактов</a>
+                        <a href="#" class="navbar-links__text">Реализация макетов</a>
                         <a href="#" class="navbar-links__text">Наши клиенты</a>
                         <a href="#" class="navbar-links__text">Контакты</a>
                     </div>
@@ -35,8 +35,10 @@
                 <div class="container">
                     <div class="hero-block">
                         <div class="hero-text">
-                            <h3 class="hero-text__title">Изготовление макетов любой сложности</h3>
-                            <span class="hero-text__subtitle">Продажи. Инвестиции. Имидж.</span>
+                            <div class="hero-text__t">
+                                    <h3 class="hero-text__title">Изготовление макетов любой сложности</h3>
+                                    <span class="hero-text__subtitle">Продажи. Инвестиции. Имидж.</span>
+                            </div>
                             <ul class="hero-list">
                                 <li class="hero-list-base">
                                     <div class="hero-list__img"><span class="hero-list__counter">5</span></div>
@@ -56,16 +58,13 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="hero-box">
-                                <span class="hero-box__title">Оставьте заявку и получите расчет стоимость макета в течение <b>30 минут</b></span>
-
-                                <form class="form form-hero" action="#">
-                                    <input type="text" name="username" required class="input hero__input" placeholder="Ваше имя">
-                                    <input type="text" name="phone" required class="input hero__input" placeholder="Контактный телефон">
-                                    <input type="text" name="email" required class="input hero__input" placeholder="Электронная почта">
-                                    <button class="button button-hero">Оставить заявку</button>
+                                <form class="form  hero-form" action="#">
+                                    <span class="hero-form__title">Оставьте заявку и получите расчет стоимость макета в течение <b>30 минут</b></span>
+                                    <div><input type="text" name="username" required class="input hero-form__input" placeholder="Ваше имя"></div>
+                                    <div><input type="text" name="phone" required class="input hero-form__input" placeholder="Контактный телефон"></div>
+                                    <div><input type="text" name="email" required class="input hero-form__input" placeholder="Электронная почта"></div>
+                                    <div><button class="button hero-form__button">Оставить заявку</button></div>
                                 </form>
-                        </div>
                     </div>
                 </div>
             </div>

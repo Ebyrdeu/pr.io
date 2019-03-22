@@ -11,11 +11,12 @@
     &-links
         &__text
             color: $main-color
-            font-size: 14px
+            font-size: 15px
             text-decoration: none
             border-bottom: solid 1px $sub-sub-color
-            margin-right: 40px
+            margin-right: 0
             line-height: 1.4
+            margin-right: 40px
             &:last-child
                 margin-right: 0px
     &-contacts
@@ -32,6 +33,19 @@
             text-decoration: none
             border-bottom: 1px solid $contacts
             font-size: 14px
-            
-        
-    
+@media (max-width: 1200px)
+        .navbar
+            &-links
+                &__text
+                    font-size: 15px
+                    margin-right: 20px
+            &-contacts
+                display: none
+@media (max-width:  768px)
+        .navbar
+            height: 60px
+            &-links
+                text-align: center
+                &__text
+                    font-size: 15px
+                    margin-right: 10px
