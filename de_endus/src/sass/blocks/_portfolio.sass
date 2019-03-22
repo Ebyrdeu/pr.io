@@ -1,0 +1,80 @@
+.portfolio
+    &-text
+        text-align: center
+        &__title
+            font-size: 36px
+            +bold
+        &__subtitle
+            font-size: 20px
+        &__line
+            display: block
+            width: 30px
+            background-color: #23bac1
+            height: 2px
+            border: none
+            margin-top: -15px
+            margin-bottom: 40px
+
+.exemple
+    margin-top: 50px
+    margin-bottom: 30px
+    width: 370px
+    &:hover
+        box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1)
+    &-box
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &-text
+        text-align: center
+        &__name
+            font-size: 16px
+            display: block
+            max-width: 240px
+            margin-left: auto
+            margin-right: auto
+        &__line
+            display: block
+            width: 9px
+            background-color: #23bac1
+            height: 2px
+            border: none
+    &__title
+        text-align: center
+        +bold
+        font-size: 20px
+    &__button
+        border: 1px solid #efefef
+        background-color: #ffffff
+        +bold
+        font-size: 15px
+        color: #000000
+        display: block
+        margin: auto
+        margin-bottom: 40px
+        &:hover
+            background-color: #23bac1
+            color: #ffffff
+            transition: 0.2s
+    &__img
+        display: block
+        margin: auto
+#ex
+    &__button-1
+        margin-top: 69px
+    &__button-2
+        margin-top: 65px
+    &__button-3
+        margin-top: 255px
+@media (max-width: 768px)
+    .exemple
+        &-box
+            justify-content: center
+    #ex
+        &__button-1
+            margin-top: 30px
+        &__button-3
+            margin-top: 50px
+
+    
+    

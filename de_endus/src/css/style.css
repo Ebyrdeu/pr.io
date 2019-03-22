@@ -634,7 +634,42 @@ template {
   }
 }
 
-.types {
+.portfolio-text {
+  text-align: center;
+}
+
+.portfolio-text__title {
+  font-size: 36px;
+  font-family: 'ProximaNova Bold' , sans-serif;
+  font-weight: 700;
+}
+
+.portfolio-text__subtitle {
+  font-size: 20px;
+}
+
+.portfolio-text__line {
+  display: block;
+  width: 30px;
+  background-color: #23bac1;
+  height: 2px;
+  border: none;
+  margin-top: -15px;
+  margin-bottom: 40px;
+}
+
+.exemple {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 370px;
+}
+
+.exemple:hover {
+  -webkit-box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 32px rgba(0, 0, 0, 0.1);
+}
+
+.exemple-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -643,5 +678,82 @@ template {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.exemple-text {
+  text-align: center;
+}
+
+.exemple-text__name {
+  font-size: 16px;
+  display: block;
+  max-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.exemple-text__line {
+  display: block;
+  width: 9px;
+  background-color: #23bac1;
+  height: 2px;
+  border: none;
+}
+
+.exemple__title {
+  text-align: center;
+  font-family: 'ProximaNova Bold' , sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.exemple__button {
+  border: 1px solid #efefef;
+  background-color: #ffffff;
+  font-family: 'ProximaNova Bold' , sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.exemple__button:hover {
+  background-color: #23bac1;
+  color: #ffffff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.exemple__img {
+  display: block;
+  margin: auto;
+}
+
+#ex__button-1 {
+  margin-top: 69px;
+}
+
+#ex__button-2 {
+  margin-top: 65px;
+}
+
+#ex__button-3 {
+  margin-top: 255px;
+}
+
+@media (max-width: 768px) {
+  .exemple-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #ex__button-1 {
+    margin-top: 30px;
+  }
+  #ex__button-3 {
+    margin-top: 50px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
