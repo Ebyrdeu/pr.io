@@ -22,6 +22,26 @@ img {
   padding: 90px;
 }
 
+.button {
+  background-color: #22bac1;
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 25px 0;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.input {
+  text-align: center;
+  font-size: 13px;
+  color: #7c7c7c;
+  border: 1px solid #e8e8e8;
+  background-color: #ffffff;
+  padding: 20px 100px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -418,6 +438,9 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -473,15 +496,44 @@ template {
   max-width: 200px;
 }
 
-.hero-box {
-  border: 1px solid #ffffff;
-  background-color: #ffffff;
-}
-
 .hero-box__title {
   font-size: 18px;
+  text-align: center;
   display: block;
   padding: 40px 70px;
-  max-width: 240px;
+  max-width: 400px;
+}
+
+.hero-form {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  width: 370px;
+}
+
+.hero-form__input {
+  display: block;
+  width: 70%;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-button {
+  display: block;
+  margin-left: auto;
+  width: 70%;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
