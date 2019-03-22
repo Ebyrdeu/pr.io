@@ -29,6 +29,7 @@ img
 .main
     &__text
         text-align: center
+        display: block
     &__title
         font-size: 36px
         font-weight: bold
@@ -42,6 +43,10 @@ img
         border: none
         margin-top: -15px
         margin-bottom: 40px
+.arrows
+    &__left, &__right
+        &:hover
+            cursor: pointer
 @media (max-width: 1200px)
     .container
         width: 768px
