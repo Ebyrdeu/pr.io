@@ -1,0 +1,39 @@
+.project
+    &-slider
+        display: flex !important
+        justify-content: space-evenly !important
+        align-items: center  !important
+        &__info
+            &-title
+                font-size: 24px
+            &-about
+                display: block
+                color: rgba(127, 127, 127, 255)
+                font-size: 12px
+            &-subtitle
+                font-size: 16px
+                color: $main-color
+        &-about
+            margin-top: 60px
+            margin-bottom: 65px
+            display: flex
+            justify-content: space-between
+            &__title
+                display: block
+                color: rgba(127, 127, 127, 255)
+                font-size: 12px
+            &__subtitle
+                font-size: 16px
+                color: $main-color
+                font-weight: bold
+        &__img 
+            display: block
+.arrows__right
+    float: right
+.arrows__left
+    
+@media (max-width: 1200px)
+    .project
+        &-slider
+            margin-bottom: 20px
+            flex-direction: column !important

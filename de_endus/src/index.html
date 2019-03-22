@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Document</title>
 </head>
 
@@ -87,11 +87,11 @@
             <div class="portfolio">
                 <div class="container">
                     <div class="portfolio-block">
-                        <div class="portfolio-text">
-                            <h3 class="portfolio-text__title">Виды макетов</h3>
+                        <div class="main__text">
+                            <h3 class="main__title">Виды макетов</h3>
                             <!-- /.portfolio__title -->
-                            <hr class="portfolio-text__line">
-                            <span class="portfolio-text__subtitle">Создаем макеты от небольших домов до космических
+                            <hr class="main__line">
+                            <span class="main__subtitle">Создаем макеты от небольших домов до космических
                                 станций</span>
                             <!-- /.portfolio__subtitle -->
                         </div>
@@ -138,7 +138,7 @@
                                 </div>
                                 <!-- /.exemple-text -->
                                 <button class="button exemple__button" id="ex__button-1">Рассчитать стоимость</button>
-                            </div>      
+                            </div>
                             <div class="exemple">
                                 <h3 class="exemple__title">Архитектурные макеты</h3>
                                 <!-- /.exemple__title -->
@@ -208,7 +208,8 @@
                                 <!-- /.exemple__title -->
                                 <img src="img/portfolio/type_6.png" alt="" class="exemple__img">
                                 <div class="exemple-text">
-                                    <p class="exemple-text__name">Мы может воплотить в жизнь любые идеи, с применением высоких технологий, максимальной детализацией и совершенно любых размеров</p>
+                                    <p class="exemple-text__name">Мы может воплотить в жизнь любые идеи, с применением
+                                        высоких технологий, максимальной детализацией и совершенно любых размеров</p>
                                 </div>
                                 <!-- /.exemple-text -->
                                 <button class="button exemple__button" id="ex__button-3">Рассчитать стоимость</button>
@@ -225,7 +226,79 @@
             <!-- /.portfolio -->
         </section>
         <!-- /.section -->
+        <div class="section">
+            <div class="project">
+                <div class="container">
+                    <div class="project-block">
+                        <div class="main__text">
+                            <h3 class="main__title">Реализованные проекты</h3>
+                            <!-- /.main__title -->
+                            <hr class="main__line">
+                            <span class="main__subtitle">Более 100 компаний уже решают свои бизнес – задачи с помощью
+                                наших макетов</span>
+                            <!-- /.main__subititle -->
+                        </div>
+                        <div class="arrows__left"> <img src="img/arrow/back.png" alt="Left"></div>
+                        <div class="arrows__right"> <img src="img/arrow/front.png" alt="Right"></div>
+                        <div class="slide">  
+                            <div class="project-slider">
+                                <div class="project-slider__img-box"><img src="img/big_slider/slider_img.png" class="project-slider__img" alt="Slider">
+                                </div>
+                                <div class="project-slider__info">
+                                    <h4 class="project-slider__info-title">Порт Артек</h4>
+                                    <span class="project-slider__info-about">Описание:</span>
+                                    <span class="project-slider__info-subtitle">Презентация порта Артек для первых лиц
+                                        государства</span>
+                                    <div class="project-slider-about">
+                                        <div><span class="project-slider-about__title">Масштаб:</span><span
+                                                class="project-slider-about__subtitle">1:200</span></div>
+                                        <div><span class="project-slider-about__title">Размер:</span><span
+                                                class="project-slider-about__subtitle">1000х2000</span></div>
+                                        <div><span class="project-slider-about__title">Срок изготовления:</span><span
+                                                class="project-slider-about__subtitle">40 дней</span></div>
+                                    </div>
+                                    <button class="button">Заказать макет</button>
+                                </div>
+                            </div>
+                            <div class="project-slider">
+                                <div class="project-slider__img-box"><img src="img/big_slider/slider_img.png" class="project-slider__img" alt="Slider">
+                                </div>
+                                <div class="project-slider__info">
+                                    <h4 class="project-slider__info-title">Порт Артек</h4>
+                                    <span class="project-slider__info-about">Описание:</span>
+                                    <span class="project-slider__info-subtitle">Презентация порта Артек для первых лиц
+                                        государства</span>
+                                    <div class="project-slider-about">
+                                        <div><span class="project-slider-about__title">Масштаб:</span><span
+                                                class="project-slider-about__subtitle">1:200</span></div>
+                                        <div><span class="project-slider-about__title">Размер:</span><span
+                                                class="project-slider-about__subtitle">1000х2000</span></div>
+                                        <div><span class="project-slider-about__title">Срок изготовления:</span><span
+                                                class="project-slider-about__subtitle">40 дней</span></div>
+                                    </div>
+                                    <button class="button">Заказать макет</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- /.project-block -->
+                </div>
+                <!-- /.container -->
+            </div>
+            <!-- /.project -->
+        </div>
+        <!-- /.section -->
     </main>
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.slide').slick({
+        prevArrow: $('.arrows__left'),
+        nextArrow: $('.arrows__right'),
+        });
+    </script>
 </body>
 
 </html>

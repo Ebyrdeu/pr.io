@@ -31,6 +31,7 @@ img {
   border: none;
   background-color: #22bac1;
   padding: 20px 60px;
+  font-weight: bold;
 }
 
 .input {
@@ -42,6 +43,29 @@ img {
 .button-hero {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.main__text {
+  text-align: center;
+}
+
+.main__title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.main__subtitle {
+  font-size: 20px;
+}
+
+.main__line {
+  display: block;
+  width: 30px;
+  background-color: #23bac1;
+  height: 2px;
+  border: none;
+  margin-top: -15px;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 1200px) {
@@ -634,30 +658,6 @@ template {
   }
 }
 
-.portfolio-text {
-  text-align: center;
-}
-
-.portfolio-text__title {
-  font-size: 36px;
-  font-family: 'ProximaNova Bold' , sans-serif;
-  font-weight: 700;
-}
-
-.portfolio-text__subtitle {
-  font-size: 20px;
-}
-
-.portfolio-text__line {
-  display: block;
-  width: 30px;
-  background-color: #23bac1;
-  height: 2px;
-  border: none;
-  margin-top: -15px;
-  margin-bottom: 40px;
-}
-
 .exemple {
   margin-top: 50px;
   margin-bottom: 30px;
@@ -754,6 +754,74 @@ template {
   }
   #ex__button-3 {
     margin-top: 50px;
+  }
+}
+
+.project-slider {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: space-evenly !important;
+      -ms-flex-pack: space-evenly !important;
+          justify-content: space-evenly !important;
+  -webkit-box-align: center  !important;
+      -ms-flex-align: center  !important;
+          align-items: center  !important;
+}
+
+.project-slider__info-title {
+  font-size: 24px;
+}
+
+.project-slider__info-about {
+  display: block;
+  color: #7f7f7f;
+  font-size: 12px;
+}
+
+.project-slider__info-subtitle {
+  font-size: 16px;
+  color: #000000;
+}
+
+.project-slider-about {
+  margin-top: 60px;
+  margin-bottom: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.project-slider-about__title {
+  display: block;
+  color: #7f7f7f;
+  font-size: 12px;
+}
+
+.project-slider-about__subtitle {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.project-slider__img {
+  display: block;
+}
+
+.arrows__right {
+  float: right;
+}
+
+@media (max-width: 1200px) {
+  .project-slider {
+    margin-bottom: 20px;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
